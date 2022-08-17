@@ -20,14 +20,15 @@ class Question():
             print("Correct")
             return True
         else:
-            print("Wrong")
+            print("Wrong!!")
             return False
 
 
 ans_flg = True
 while ans_flg:
     qn = Question()
+
     qn.print_qn();
-    ans = input("True/False : ")
+    ans = input("True/False -: ")
     if not qn.check_ans(ans):
         ans_flg = False
