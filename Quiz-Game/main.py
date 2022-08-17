@@ -17,7 +17,7 @@ class Question():
 
     def check_ans(self, ans):
         if ans == self.answer:
-            print("Correct")
+            print("Correct answer")
             return True
         else:
             print("Wrong answer!!")
