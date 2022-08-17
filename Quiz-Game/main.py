@@ -20,7 +20,7 @@ class Question():
             print("Correct")
             return True
         else:
-            print("Wrong!!")
+            print("Wrong answer!!")
             return False
 
 
